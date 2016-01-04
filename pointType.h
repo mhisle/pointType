@@ -8,8 +8,8 @@ public:
       string showPoint() const;
       void setPoint(int, int);
       void print() const;
-      int getX();
-      int getY();
+      int getX() const;
+      int getY() const;
 private:
       int x;
       int y;
